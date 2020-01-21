@@ -2,15 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-// import { Card2 } from './dist/index';
+ import { Card2 } from './components/index';
 
 function App() {
   return (
     <div className="App">
       sdfsdf
-      {/* <Card2>
+       <Card2>
         Test
-      </Card2> */}
+      </Card2> 
     </div>
   );
 }

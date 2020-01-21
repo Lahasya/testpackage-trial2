@@ -1,13 +1,13 @@
 import React from 'react';
-   import './card.css';
+import './_card.scss';
 
-   const Card2 = (props) => {
-     return (
-       <div className="card">
-         <div>React Pacakge11</div> <br/>
-         <span>Hello :</span> {props.children}
-       </div>
-     );
-   };
+const Card2 = (props) => {
+  return (
+    <div className="card">
+      <div>React Pacakge1122</div> <br />
+      <span>Hello :</span> {props.children}
+    </div>
+  );
+};
 
-   export default Card2;
+export default Card2;
